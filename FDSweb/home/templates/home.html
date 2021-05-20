@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+
+<h1> {{ oscar }} </h1>
+
+<div id='request_content'>
+    {% for key, value in request.items %}
+        <p>{{ key }}: {{ value }}</p>
+    {% endfor %}
+</div>
+
+<script>
+
+    // var res = {{ request | safe }};
+    // $('#request_content').html( res );
+
+</script>
+
+
+{% endblock %}
