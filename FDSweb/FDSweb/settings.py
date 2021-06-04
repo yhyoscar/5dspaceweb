@@ -65,10 +65,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles', 
-    'tracker', 
-    'contact', 
     'home', 
     'django_user_agents', 
+    'tracking_analyzer',     
 ]
 
 GEOIP_PATH = web_info['GEOIP_PATH']
