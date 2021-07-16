@@ -10940,7 +10940,7 @@ hr.divider-light {
 }
 
 @media (max-width: 992px) {
-    #bg_video_in {
+  #bg_video_in {
     right: 0;
     bottom: 0;
     min-height: 100% !important;
@@ -10954,11 +10954,16 @@ hr.divider-light {
 }
 
 #bg_video {
-  /* position: fixed; */
-  right: 0;
-  bottom: 0;
-  min-width: 100% !important;
-  min-height: 100% !important;
+/* position: fixed; */
+right: 0;
+bottom: 0;
+min-width: 100% !important;
+min-height: 100% !important;
+}
+
+#bg_video_in {
+min-width: 100% !important;
+min-height: 100% !important;
 }
 
 #bg_video_in {
