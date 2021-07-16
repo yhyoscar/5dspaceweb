@@ -10939,6 +10939,20 @@ hr.divider-light {
   }
 }
 
+@media (max-width: 992px) {
+    #bg_video_in {
+    right: 0;
+    bottom: 0;
+    min-height: 100% !important;
+  }
+
+  #bg_video {
+    overflow: hidden !important;
+    height: 100%;
+    width: 100%;
+  }
+}
+
 #bg_video {
   /* position: fixed; */
   right: 0;
@@ -10946,6 +10960,12 @@ hr.divider-light {
   min-width: 100% !important;
   min-height: 100% !important;
 }
+
+#bg_video_in {
+  min-width: 100% !important;
+  min-height: 100% !important;
+}
+
 
 #logo2 {
   max-width: 60px;
