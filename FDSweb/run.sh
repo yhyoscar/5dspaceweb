@@ -5,6 +5,7 @@ rm -rf */__pycache__
 rm -rf */*/__pycache__
 rm -rf */*/*/__pycache__
 
+#python3 manage.py makemigrations
 python3 manage.py makemigrations home
 python3 manage.py migrate
 python3 manage.py collectstatic
